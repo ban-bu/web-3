@@ -6,6 +6,7 @@ startCommand = "npm run start"
 healthcheckPath = "/"
 healthcheckTimeout = 300
 restartPolicyType = "always"
+replicas = 1
 
 [environment]
 NODE_ENV = "production"
